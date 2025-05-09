@@ -195,6 +195,7 @@
         "https://wa.me/" + nomorWA + "?text=" + encodeURIComponent(pesan);
 
       window.open(urlWA, "_blank");
+      console.log($("#nama").val());
     });
   });
 
