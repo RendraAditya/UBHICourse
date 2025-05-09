@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>UBHI Course</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="Free HTML Templates" name="keywords" />
+    <meta content="Free HTML Templates" name="description" />
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Open+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- Navbar Start -->
+    <div class="container-fluid p-0">
+      <nav
+        class="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0 px-lg-5"
+      >
+        <a
+          href="index.html"
+          class="navbar-brand d-flex align-items-center gap-10"
+        >
+          <h1 class="m-0 text-uppercase text-primary fs-3 fw-bold">
+            <i class="fa fa-book-reader mr-3"></i> UBHI Course
+          </h1>
+        </a>
+
+        <button
+          type="button"
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#navbarCollapse"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-between px-lg-3"
+          id="navbarCollapse"
+        >
+          <div class="navbar-nav mx-auto py-0">
+            <a href="index.html" class="nav-item nav-link">Home</a>
+
+            <a href="course.html" class="nav-item nav-link active">Courses</a>
+
+            <div class="nav-item dropdown">
+              <a
+                href="#"
+                class="nav-link dropdown-toggle"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Detail
+              </a>
+              <div
+                class="dropdown-menu custom-dropdown shadow border-0"
+                aria-labelledby="navbarDropdown"
+              >
+                <a class="dropdown-item custom-dropdown-item" href="detail.html"
+                  >Pemrograman Web</a
+                >
+                <a
+                  class="dropdown-item custom-dropdown-item"
+                  href="detail2.html"
+                  >Sistem Cerdas</a
+                >
+                <a
+                  class="dropdown-item custom-dropdown-item"
+                  href="detail3.html"
+                >
+                  Interaksi Manusia & Komputer</a
+                >
+                <a
+                  class="dropdown-item custom-dropdown-item"
+                  href="detail4.html"
+                >
+                  Pemrograman Framework</a
+                >
+                <a
+                  class="dropdown-item custom-dropdown-item"
+                  href="detail5.html"
+                >
+                  Analisa dan Desain Perangkat Lunak</a
+                >
+              </div>
+            </div>
+
+            <a href="contact.html" class="nav-item nav-link">Contact</a>
+            <div class="nav-item dropdown">
+              <a
+                href="#"
+                class="nav-link dropdown-toggle"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Other
+              </a>
+              <div
+                class="dropdown-menu custom-dropdown shadow border-0"
+                aria-labelledby="navbarDropdown"
+              >
+                <a class="dropdown-item custom-dropdown-item" href="team.html"
+                  >Instructors</a
+                >
+                <a
+                  class="dropdown-item custom-dropdown-item"
+                  href="testimonial.html"
+                  >Testimonial</a
+                >
+              </div>
+            </div>
+          </div>
+          <a
+            href=""
+            class="btn btn-warning text-white py-2 px-4 d-none d-lg-block"
+            data-bs-toggle="modal"
+            data-bs-target="#daftarModal"
+            >Daftar</a
+          >
+        </div>
+      </nav>
+    </div>
+    <!-- Navbar End -->
+
+    <!-- Header Start -->
+    <div
+      class="jumbotron jumbotron-fluid position-relative overlay-bottom"
+      style="margin-bottom: 90px"
+    >
+      <div class="container text-center my-5 py-5">
+        <h2 class="text-white display-1 mb-5">
+          Analisa & Desain Perangkat Lunak
+        </h2>
+        <div class="d-inline-flex text-white mb-5">
+          <p class="m-0 text-uppercase">
+            <a class="text-white" href="">Home</a>
+          </p>
+          <i class="fa fa-angle-double-right pt-1 px-3"></i>
+          <p class="m-0 text-uppercase">
+            <a class="text-white" href="course.html">Courses</a>
+          </p>
+          <i class="fa fa-angle-double-right pt-1 px-3"></i>
+          <p class="m-0 text-uppercase">Analisa & Desain Perangkat Lunak</p>
+        </div>
+        <!-- Button Daftar -->
+        <div class="mx-auto mb-5" style="width: 100%; max-width: 600px">
+          <a
+            href="#"
+            class="btn btn-warning btn-lg px-5 py-3"
+            data-bs-toggle="modal"
+            data-bs-target="#daftarModal"
+            style="
+              font-size: 1.25rem;
+              border-radius: 50px;
+              box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+              transition: all 0.3s ease-in-out;
+            "
+            onmouseover="this.style.backgroundColor='#e0a800';"
+            onmouseout="this.style.backgroundColor='#ffc107';"
+          >
+            <strong class="text-white">Daftar Sekarang</strong>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div id="modalContainer"></div>
+    <script>
+      fetch("form-pendaftaran.html")
+        .then((res) => res.text())
+        .then((html) => {
+          document.getElementById("modalContainer").innerHTML = html;
+        });
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Detail Start -->
+    <div class="container-fluid py-5 scroll-reveal">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="mb-5">
+              <div class="section-title position-relative mb-5">
+                <h6
+                  class="d-inline-block position-relative text-secondary text-uppercase pb-2"
+                >
+                  Course Detail
+                </h6>
+                <h1 class="display-4">Analisa & Desain Perangkat Lunak</h1>
+              </div>
+              <img
+                class="img-fluid rounded custom-img mb-4"
+                src="img/courses-5.jpg"
+                alt="Image"
+              />
+              <p>
+                Mata kuliah Analisa dan Desain Perangkat Lunak (ADPL) adalah
+                mata kuliah penting dalam bidang Rekayasa Perangkat Lunak
+                (Software Engineering) yang fokus pada proses analisis kebutuhan
+                dan perancangan solusi perangkat lunak sebelum proses
+                pemrograman dimulai.
+              </p>
+              <h4>Tujuan Utama</h4>
+              <ul>
+                <li>
+                  Memahami siklus hidup pengembangan perangkat lunak (Software
+                  Development Life Cycle / SDLC).
+                </li>
+                <li>
+                  Mampu melakukan analisis kebutuhan sistem dari klien/pengguna.
+                </li>
+                <li>
+                  Mampu merancang sistem perangkat lunak yang efisien, modular,
+                  dan dapat dikembangkan.
+                </li>
+                <li>
+                  Mempersiapkan dokumentasi teknis sebagai dasar pengembangan
+                  perangkat lunak.
+                </li>
+              </ul>
+            </div>
+
+            <h2 class="mb-3">Related Courses</h2>
+            <div
+              class="owl-carousel related-carousel position-relative"
+              style="padding: 0 30px"
+            >
+              <a
+                class="courses-list-item position-relative d-block overflow-hidden mb-2"
+                href="detail2.html"
+              >
+                <img class="img-fluid" src="img/courses-2.jpg" alt="" />
+                <div class="courses-text">
+                  <h4 class="text-center text-white px-3">Sistem Cerdas</h4>
+                  <div class="border-top w-100 mt-3">
+                    <div class="d-flex justify-content-between p-4">
+                      <span class="text-white"
+                        ><i class="fa fa-user mr-2"></i>Agung Prasetya,
+                        M.Kom.</span
+                      >
+                      <span class="text-white"
+                        ><i class="fa fa-star mr-2"></i>4.5
+                        <small>(250)</small></span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a
+                class="courses-list-item position-relative d-block overflow-hidden mb-2"
+                href="detail3.html"
+              >
+                <img class="img-fluid" src="img/courses-3.jpg" alt="" />
+                <div class="courses-text">
+                  <h4 class="text-center text-white px-3">
+                    Interaksi Manusia & Komputer
+                  </h4>
+                  <div class="border-top w-100 mt-3">
+                    <div class="d-flex justify-content-between p-4">
+                      <span class="text-white"
+                        ><i class="fa fa-user mr-2"></i>M. Nurfauzi Sahono,
+                        M.Kom.</span
+                      >
+                      <span class="text-white"
+                        ><i class="fa fa-star mr-2"></i>4.5
+                        <small>(250)</small></span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a
+                class="courses-list-item position-relative d-block overflow-hidden mb-2"
+                href="detail4.html"
+              >
+                <img class="img-fluid" src="img/courses-4.jpg" alt="" />
+                <div class="courses-text">
+                  <h4 class="text-center text-white px-3">
+                    Pemrograman Framework
+                  </h4>
+                  <div class="border-top w-100 mt-3">
+                    <div class="d-flex justify-content-between p-4">
+                      <span class="text-white"
+                        ><i class="fa fa-user mr-2"></i>Taufiq Agung Cahyono,
+                        M.Kom.</span
+                      >
+                      <span class="text-white"
+                        ><i class="fa fa-star mr-2"></i>4.5
+                        <small>(250)</small></span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a
+                class="courses-list-item position-relative d-block overflow-hidden mb-2"
+                href="detail.html"
+              >
+                <img class="img-fluid" src="img/courses-5.jpg" alt="" />
+                <div class="courses-text">
+                  <h4 class="text-center text-white px-3">
+                    Pengembangan Aplikasi Web
+                  </h4>
+                  <div class="border-top w-100 mt-3">
+                    <div class="d-flex justify-content-between p-4">
+                      <span class="text-white"
+                        ><i class="fa fa-user mr-2"></i>Joko Iskandar,
+                        M.Kom</span
+                      >
+                      <span class="text-white"
+                        ><i class="fa fa-star mr-2"></i>4.5
+                        <small>(250)</small></span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 mt-5 mt-lg-0">
+            <div class="bg-primary mb-5 py-3">
+              <h3 class="text-white py-3 px-4 m-0">Course Features</h3>
+              <div class="d-flex justify-content-between border-bottom px-4">
+                <h6 class="text-white my-3">Instructor</h6>
+                <h6 class="text-white my-3">Yayak Kartika Sari, M.Kom.</h6>
+              </div>
+              <div class="d-flex justify-content-between border-bottom px-4">
+                <h6 class="text-white my-3">Rating</h6>
+                <h6 class="text-white my-3">4.5 <small>(250)</small></h6>
+              </div>
+              <div class="d-flex justify-content-between border-bottom px-4">
+                <h6 class="text-white my-3">Lectures</h6>
+                <h6 class="text-white my-3">15</h6>
+              </div>
+              <div class="d-flex justify-content-between border-bottom px-4">
+                <h6 class="text-white my-3">Duration</h6>
+                <h6 class="text-white my-3">10.00 Hrs</h6>
+              </div>
+              <div class="d-flex justify-content-between border-bottom px-4">
+                <h6 class="text-white my-3">Skill level</h6>
+                <h6 class="text-white my-3">All Level</h6>
+              </div>
+              <div class="d-flex justify-content-between px-4">
+                <h6 class="text-white my-3">Language</h6>
+                <h6 class="text-white my-3">Bahasa Indonesia</h6>
+              </div>
+              <div class="py-3 px-4">
+                <a
+                  class="btn btn-success btn-block btn-secondary py-3 px-5"
+                  data-bs-toggle="modal"
+                  data-bs-target="#daftarModal"
+                  href=""
+                  >Daftar</a
+                >
+              </div>
+            </div>
+            <br />
+            <br />
+            <div class="mb-5">
+              <h2 class="mb-4">Populer Courses</h2>
+              <a
+                class="d-flex align-items-center text-decoration-none mb-4"
+                href="detail2.html"
+              >
+                <img
+                  class="img-fluid rounded"
+                  src="img/courses-2.jpg"
+                  width="80"
+                  alt=""
+                />
+                <div class="pl-3">
+                  <h6>Sistem Cerdas</h6>
+                  <div class="d-flex">
+                    <small class="text-body mr-3"
+                      ><i class="fa fa-user text-primary mr-2"></i>Agung
+                      Prasetya, M.Kom. <br
+                    /></small>
+                    <small class="text-body"
+                      ><i class="fa fa-star text-primary mr-2"></i>4.5
+                      (250)</small
+                    >
+                  </div>
+                </div>
+              </a>
+              <a
+                class="d-flex align-items-center text-decoration-none mb-4"
+                href="detail3.html"
+              >
+                <img
+                  class="img-fluid rounded"
+                  src="img/courses-3.jpg"
+                  width="80"
+                  alt=""
+                />
+                <div class="pl-3">
+                  <h6>Interaksi Manusia & Komputer</h6>
+                  <div class="d-flex">
+                    <small class="text-body mr-3"
+                      ><i class="fa fa-user text-primary mr-2"></i>M. Nurfauzi
+                      Sahono, M.Kom.</small
+                    >
+                    <small class="text-body"
+                      ><i class="fa fa-star text-primary mr-2"></i>4.5
+                      (250)</small
+                    >
+                  </div>
+                </div>
+              </a>
+              <a
+                class="d-flex align-items-center text-decoration-none mb-4"
+                href="detail4.html"
+              >
+                <img
+                  class="img-fluid rounded"
+                  src="img/courses-4.jpg"
+                  width="80"
+                  alt=""
+                />
+                <div class="pl-3">
+                  <h6>Pemrograman Framework</h6>
+                  <div class="d-flex">
+                    <small class="text-body mr-3"
+                      ><i class="fa fa-user text-primary mr-2"></i>Taufiq Agung
+                      Cahyono, M.Kom.</small
+                    >
+                    <small class="text-body"
+                      ><i class="fa fa-star text-primary mr-2"></i>4.5
+                      (250)</small
+                    >
+                  </div>
+                </div>
+              </a>
+              <a
+                class="d-flex align-items-center text-decoration-none"
+                href="detail.html"
+              >
+                <img
+                  class="img-fluid rounded"
+                  src="img/courses-1.jpg"
+                  width="80"
+                  alt=""
+                />
+                <div class="pl-3">
+                  <h6>Pengembangan Aplikasi Web</h6>
+                  <div class="d-flex">
+                    <small class="text-body mr-3"
+                      ><i class="fa fa-user text-primary mr-2"></i>Joko
+                      Iskandar, M.Kom.</small
+                    >
+                    <small class="text-body"
+                      ><i class="fa fa-star text-primary mr-2"></i>4.5
+                      (250)</small
+                    >
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Detail End -->
+
+    <!-- Footer Start -->
+    <div
+      class="container-fluid position-relative overlay-top bg-dark text-white-50 py-5 scroll-reveal"
+      style="margin-top: 90px"
+    >
+      <div class="container mt-5 pt-5">
+        <div class="row">
+          <div class="col-md-6 mb-5">
+            <a href="index.html" class="navbar-brand">
+              <h1 class="mt-n2 text-uppercase text-white">
+                <i class="fa fa-book-reader mr-3"></i>UBHI Course
+              </h1>
+            </a>
+            <p class="m-0">
+              Selamat datang di UBHI Course. Kami berkomitmen untuk menyediakan
+              pendidikan terbaik dalam teknologi informasi dan pengembangan
+              perangkat lunak.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 mb-5">
+            <h3 class="text-white mb-4">Get In Touch</h3>
+            <p>
+              <i class="fa fa-map-marker-alt mr-2"></i>Jalan Mayor Sujadi Timur
+              No 7, Tulungagung, Kode Pos 66221, Indonesia
+            </p>
+            <p><i class="fa fa-phone-alt mr-2"></i>(0355) 321426</p>
+            <p><i class="fa fa-envelope mr-2"></i> info@ubhi.ac.id</p>
+            <div class="d-flex justify-content-start mt-4">
+              <a
+                class="text-white mr-4"
+                href="https://www.youtube.com/channel/UC7BW38AjVw0A6mgj5SY-eow"
+                target="_blank"
+                ><i class="fab fa-2x fa-youtube"></i
+              ></a>
+              <a
+                class="text-white mr-4"
+                href="https://www.facebook.com/p/Informatika-Universitas-Bhinneka-PGRI-Tulungagung-100072165706641/"
+                target="_blank"
+                ><i class="fab fa-2x fa-facebook-f"></i
+              ></a>
+              <a
+                class="text-white mr-4"
+                href="https://id.linkedin.com/school/ubhi-official/"
+                target="_blank"
+                ><i class="fab fa-2x fa-linkedin-in"></i
+              ></a>
+              <a
+                class="text-white"
+                href="https://www.instagram.com/informatikaubhi/"
+                target="_blank"
+                ><i class="fab fa-2x fa-instagram"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-md-4 mb-5">
+            <h4 class="text-uppercase text-white mb-4">Our Course</h4>
+            <div class="d-flex flex-column justify-content-start">
+              <a class="text-white-50 mb-2" href="#"
+                ><i class="fa fa-angle-right mr-2"></i>Pengembangan Aplikasi
+                Web</a
+              >
+              <a class="text-white-50 mb-2" href="#"
+                ><i class="fa fa-angle-right mr-2"></i>Sistem Cerdas</a
+              >
+              <a class="text-white-50 mb-2" href="#"
+                ><i class="fa fa-angle-right mr-2"></i>Interaksi Manusia &
+                Komputer</a
+              >
+              <a class="text-white-50 mb-2" href="#"
+                ><i class="fa fa-angle-right mr-2"></i>Pemrograman Framework</a
+              >
+              <a class="text-white-50" href="#"
+                ><i class="fa fa-angle-right mr-2"></i>Analisa & Desain
+                Perangkat Lunak</a
+              >
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-5">
+            <h4 class="text-uppercase text-white mb-4">Tautan Populer</h4>
+            <div class="d-flex flex-column justify-content-start">
+              <a
+                class="text-white-50 mb-2"
+                href="https://ubhi.ac.id"
+                target="_blank"
+                ><i class="fa fa-angle-right mr-2"></i>Website UBHI</a
+              >
+              <a
+                class="text-white-50 mb-2"
+                href="https://siakad.ubhi.ac.id"
+                target="_blank"
+                ><i class="fa fa-angle-right mr-2"></i>SiaKAD</a
+              >
+              <a
+                class="text-white-50 mb-2"
+                href="https://pmb.ubhi.ac.id"
+                target="_blank"
+                ><i class="fa fa-angle-right mr-2"></i>PMB</a
+              >
+              <a
+                class="text-white-50"
+                href="https://infubhi.my.id/assets/Kalender_Akademik_2024-2025.pdf"
+                target="_blank"
+                ><i class="fa fa-angle-right mr-2"></i>Kalender Akademik</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="container-fluid bg-dark text-white-50 border-top py-4"
+      style="border-color: rgba(256, 256, 256, 0.1) !important"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 text-center text-md-left mb-3 mb-md-0">
+            <p class="m-0">
+              Copyright &copy;
+              <a class="text-white" href="#">UBHI Course</a>. All Rights
+              Reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a
+      href="#"
+      class="btn btn-lg btn-primary rounded-0 btn-lg-square back-to-top"
+      ><i class="fa fa-angle-double-up"></i
+    ></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
